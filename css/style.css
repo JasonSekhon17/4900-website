@@ -94,7 +94,7 @@ a.theme-btn:hover {
 .theme-btn {border: 1px solid #0061ff;color: #0061ff }
 .theme-color, .primary-menu > ul > li:hover > a,
 .primary-menu > ul > li.current > a {
-    color: #0061ff;
+    color: #589cf4;
 }
 .by-themes {
   background: #0061ff none repeat scroll 0 0;
@@ -235,10 +235,15 @@ a.theme-btn:hover {
     text-transform: uppercase;
 }
 .section-dis {
-    color: #434343;
-    font-size: 26px;
-    font-weight: 700;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 400;
     letter-spacing: 1px;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-bg {
