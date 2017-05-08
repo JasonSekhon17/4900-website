@@ -240,7 +240,7 @@ a.theme-btn:hover {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
-    width: 700px;
+    width: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
