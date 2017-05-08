@@ -266,7 +266,7 @@ a.theme-btn:hover {
 .image-bg .image-shop-scroll {
     background-position: center 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     height: 100%;
     left: 0;
     margin: 0 auto;
@@ -415,7 +415,7 @@ a.theme-btn:hover {
   min-height: 115px;
 }
 .footer-area {
-    background: rgba(0, 0, 0, 0) url("../img/road.jpg") no-repeat scroll center top / cover ;
+    background: rgba(0, 0, 0, 0) url("../img/natural-laundry-detergent.jpg") no-repeat scroll center top / cover ;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
