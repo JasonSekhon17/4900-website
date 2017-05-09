@@ -71,7 +71,7 @@
   				</a>
   			</li>
         <li>
-  				<a href="index.php">
+  				<a href="#" class="logout-button">
   					<span class="small-nav" data-toggle="tooltip" data-placement="right" title="Logout">
   						<span class="fa fa-sign-out"></span>
   					</span>
@@ -95,6 +95,8 @@
     <script src="js/bootstrap.min.js"></script>
 <!-- plugins js -->
     <script src="js/plugins.js"></script>
+<!-- logout js -->
+    <script src="js/logout.js"></script>
 <!-- main js -->
     <script src="js/main.js"></script>
 </body>

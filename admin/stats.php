@@ -71,7 +71,7 @@
   				</a>
   			</li>
         <li>
-  				<a href="index.php">
+  				<a href="#" class="logout-button">
   					<span class="small-nav" data-toggle="tooltip" data-placement="right" title="Logout">
   						<span class="fa fa-sign-out"></span>
   					</span>
@@ -87,12 +87,16 @@
 	<span class="fa fa-chevron-left nav-close"></span>
 </button>
 <!-- all js here -->
+<!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
 <!-- jquery latest version -->
     <script src="js/jquery-3.2.1.min.js"></script>
 <!-- bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
 <!-- plugins js -->
     <script src="js/plugins.js"></script>
+<!-- logout js -->
+    <script src="js/logout.js"></script>
 <!-- main js -->
     <script src="js/main.js"></script>
 </body>

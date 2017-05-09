@@ -79,6 +79,9 @@ input::-webkit-input-placeholder {
 .incEmail{
   color: red;
 }
+.incType{
+	color: red;
+}
 
 /* LOGIN END */
 

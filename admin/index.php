@@ -38,8 +38,8 @@
 						<div class="form-group">
 							<label for="email" class="cols-sm-2 control-label">Your Email</label>
 							<div class="cols-sm-10">
-                <p class="incEmail hide">Incorrect Email</p>
-                <p class="incEmail hide">Insufficient Account Privelages</p>
+                                <p class="incEmail hide">Incorrect Email</p>
+                                <p class="incType hide">Insufficient Account Privileges</p>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
 									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
@@ -76,6 +76,8 @@
           <script src="js/bootstrap.min.js"></script>
   		<!-- plugins js -->
           <script src="js/plugins.js"></script>
+        <!-- login js -->
+          <script src="js/login.js"></script>
   		<!-- main js -->
           <script src="js/main.js"></script>
       </body>
