@@ -86,7 +86,8 @@
 	<span class="fa fa-chevron-right nav-open"></span>
 	<span class="fa fa-chevron-left nav-close"></span>
 </button>
-<!-- all js here -->
+<!-- all js here --><!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
 <!-- jquery latest version -->
     <script src="js/jquery-3.2.1.min.js"></script>
 <!-- bootstrap js -->

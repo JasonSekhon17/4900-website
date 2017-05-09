@@ -72,6 +72,14 @@ input::-webkit-input-placeholder {
 	text-align: center;
 }
 
+.incPass{
+  color: red;
+}
+
+.incEmail{
+  color: red;
+}
+
 /* LOGIN END */
 
 /* HOME NAV */

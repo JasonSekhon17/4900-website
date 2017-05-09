@@ -13,8 +13,6 @@
 		<!-- all css here -->
 		<!-- bootstrap v3.3.6 css -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
 		<!-- font-awesome css -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- style css -->
@@ -35,11 +33,13 @@
 	               	</div>
 	            </div>
 				<div class="main-login main-center">
-					<form class="form-horizontal" method="post" action="home.php">
+					<form class="form-horizontal" method="post">
 
 						<div class="form-group">
 							<label for="email" class="cols-sm-2 control-label">Your Email</label>
 							<div class="cols-sm-10">
+                <p class="incEmail hide">Incorrect Email</p>
+                <p class="incEmail hide">Insufficient Account Privelages</p>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
 									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
@@ -50,6 +50,7 @@
 						<div class="form-group">
 							<label for="password" class="cols-sm-2 control-label">Password</label>
 							<div class="cols-sm-10">
+                <p class="incPass hide">Incorrect Password</p>
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
 									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
@@ -57,8 +58,8 @@
 							</div>
 						</div>
 
-						<div class="form-group ">
-							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Login</button>
+						<div class="form-group">
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Login</button>
 						</div>
 					</form>
 				</div>
@@ -67,6 +68,8 @@
 
 
       <!-- all js here -->
+      <!-- firebase -->
+          <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
   		<!-- jquery latest version -->
           <script src="js/jquery-3.2.1.min.js"></script>
   		<!-- bootstrap js -->

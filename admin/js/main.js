@@ -1,4 +1,11 @@
 $(document).ready(function() {
+    const emailField = document.getElementById('email');
+    const passwordField = document.getElementById('password');
+    const loginBtn = $('.login-button');
+    emailBool = true;
+    typeBool = true;
+    access = false;
+
     $('.navbar-nav [data-toggle="tooltip"]').tooltip();
     $('.navbar-twitch-toggle').on('click', function(event) {
         event.preventDefault();
@@ -25,4 +32,43 @@ $(document).ready(function() {
       messagingSenderId: "484998080513"
     };
     firebase.initializeApp(config);
+    firebase.database();
+    const dbUserRef = firebase.database().ref().child('user').orderByKey();
+    const auth = firebase.auth();
+
+    loginBtn.on('click', function(){
+      $('.incPass').addClass("hide");
+      $('.incEmail').addClass("hide");
+      $('.incType').addClass("hide");
+      emailBool = true;
+      typeBool = true;
+      access = false
+      dbUserRef.once('value').then(function(snapshot){
+        snapshot.forEach(function(childSnapshot){
+          var key = childSnapshot.key;
+          var childData = childSnapshot.val();
+          if(emailField.value == childData.email){
+            emailBool = false
+            if(childData.type < 2){
+              typeBool = false;
+              access = true;
+              const promise = auth.signInWithEmailAndPassword(emailField.value, passwordField.value);
+              promise.catch(function(){
+                access = false;
+                $('.incPass').removeClass("hide");
+              });
+            }
+          }
+        })
+        if(access)
+          window.location.replace("home.php");
+        if(emailBool)
+          $('.incEmail').removeClass("hide");
+        if(typeBool)
+          $('.incType').removeClass("hide");
+      });
+    });
+
+
+
 });
