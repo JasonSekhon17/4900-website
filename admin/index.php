@@ -32,11 +32,10 @@
 	               <div class="panel-title text-center">
 	               		<h1 class="title">Wash & Fold</h1>
                     <h1 class="subtitle">Admin Panel</h1>
-	               		<hr />
 	               	</div>
 	            </div>
 				<div class="main-login main-center">
-					<form class="form-horizontal" method="post" action="#">
+					<form class="form-horizontal" method="post" action="home.php">
 
 						<div class="form-group">
 							<label for="email" class="cols-sm-2 control-label">Your Email</label>
@@ -59,7 +58,7 @@
 						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Login</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Login</button>
 						</div>
 					</form>
 				</div>
