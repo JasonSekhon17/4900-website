@@ -18,18 +18,13 @@ $(document).ready(function() {
 
     auth.onAuthStateChanged(user => {
         if(!user){
-            window.location.replace("index.php");
+            window.location.replace("index.html");
         }
     });
 
     logoutBtn.on('click', function() {
         auth.signOut().then(function () {
             console.log('Signed Out');
-            auth.onAuthStateChanged(user => {
-                if(!user){
-                    window.location.replace("index.php");
-                }
-            });
         }, function (error) {
             console.error('Sign Out Error', error);
         });

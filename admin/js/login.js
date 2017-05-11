@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 auth.onAuthStateChanged(user => {
     if(user){
-        window.location.replace("home.php");
+        window.location.replace("home.html");
     }
 });
 

@@ -1,0 +1,184 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>W&F Admin : Orders</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Place favicon.ico in the root directory -->
+        <link rel="icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500italic,500,400italic,700italic,900,100,300' rel='stylesheet' type='text/css'>
+		<!-- all css here -->
+		<!-- bootstrap v3.3.6 css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+  <div class="header">
+     <div class="container">
+        <div class="row">
+           <div class="col-md-5">
+              <!-- Logo -->
+              <div class="logo">
+                 <h1><a href="index.html">Wash And Fold Admin</a></h1>
+              </div>
+           </div>
+           <div class="col-md-2 col-md-offset-5">
+              <div class="navbar navbar-inverse" role="banner">
+                  <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                    <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                          <a class="logout-button">Logout</a>
+                      </li>
+                    </ul>
+                  </nav>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  <div class="page-content">
+    <div class="row">
+    <div class="col-md-2">
+      <div class="sidebar content-box" style="display: block;">
+              <ul class="nav">
+                  <!-- Main menu -->
+                  <li><a href="home.html"><i class="fa fa-home"></i> Dashboard</a></li>
+                  <li><a href="create.html"><i class="fa fa-user-plus"></i> Create Accounts</a></li>
+                  <li class="current"><a href="orders.html"><i class="fa fa-shopping-cart"></i> Orders</a></li>
+                  <li><a href="stats.html"><i class="fa fa-bar-chart"></i> Stats</a></li>
+                  <li><a href="https://dashboard.tawk.to/login"><i class="fa fa-comments-o"></i> Messages</a></li>
+              </ul>
+           </div>
+    </div>
+    <div class="col-md-10">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="content-box-large">
+            <div class="panel-heading">
+            <div class="panel-title">Current Orders</div>
+
+            <div class="panel-options">
+              <a href="#" data-rel="collapse"><i class="fa fa-refresh"></i></a>
+              <a href="#" data-rel="reload"><i class="fa fa-cog"></i></a>
+            </div>
+          </div>
+            <div class="panel-body">
+              <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Request Date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content-box-large">
+            <div class="panel-heading">
+            <div class="panel-title">Old Orders</div>
+
+            <div class="panel-options">
+              <a href="#" data-rel="collapse"><i class="fa fa-refresh"></i></a>
+              <a href="#" data-rel="reload"><i class="fa fa-cog"></i></a>
+            </div>
+          </div>
+            <div class="panel-body">
+              <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Request Date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                        <td>fill from db</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+       <div class="container">
+
+          <div class="copy text-center">
+             Copyright 2017 <a href='#'>Wash And Fold</a>
+          </div>
+
+       </div>
+    </footer>
+
+
+<!-- all js here -->
+<!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<!-- jquery latest version -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+<!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- plugins js -->
+    <script src="js/plugins.js"></script>
+<!-- logout js -->
+    <script src="js/logout.js"></script>
+<!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
