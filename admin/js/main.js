@@ -14,4 +14,5 @@ $(document).ready(function() {
         $('.navbar-twitch').removeClass('navbar-'+$current.data('type'));
         $('.navbar-twitch').addClass('navbar-'+$(this).data('type'));
     });
+
 });

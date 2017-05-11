@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Wash & Fold Admin</title>
+        <title>Wash And Fold Admin</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Place favicon.ico in the root directory -->
@@ -16,19 +16,19 @@
 		<!-- font-awesome css -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- style css -->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
     </head>
 
 
 
-    <body>
+    <body class="indexBody">
 
 
       <div class="container">
 			<div class="row main">
 				<div class="panel-heading">
 	               <div class="panel-title text-center">
-	               		<h1 class="title">Wash & Fold</h1>
+	               		<h1 class="title">Wash And Fold</h1>
                     <h1 class="subtitle">Admin Panel</h1>
 	               	</div>
 	            </div>
@@ -65,6 +65,7 @@
 				</div>
 			</div>
 		</div>
+
 
 
       <!-- all js here -->
