@@ -94,7 +94,7 @@ a.theme-btn:hover {
 .theme-btn {border: 1px solid #0061ff;color: #0061ff }
 .theme-color, .primary-menu > ul > li:hover > a,
 .primary-menu > ul > li.current > a {
-    color: #589cf4;
+    color: #009BF5;
 }
 .by-themes {
   background: #0061ff none repeat scroll 0 0;
@@ -229,14 +229,14 @@ a.theme-btn:hover {
     padding: 70px 0;
 }
 .section-title {
-    color: #333333;
+    color: #03A9F4;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .section-dis {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: #7c7c7c;
+    color: #f9f9f9;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -250,14 +250,18 @@ a.theme-btn:hover {
     display: block;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
     margin-bottom: 10px;
-    height: 240px;
+    height: 300px;
     position: relative;
     width: 100%
 }
+
 #home-pages{
   background: linear-gradient(
-      rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6));
+    rgba(255,255,255,1), rgba(255, 255, 255, 0.6));
 }
+
+  background: linear-gradient(
+
 #shop-pages{
   background: rgba(195,186,194,1);
   background: linear-gradient(
@@ -266,7 +270,7 @@ a.theme-btn:hover {
 .image-bg .image-shop-scroll {
     background-position: center 0;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
     height: 100%;
     left: 0;
     margin: 0 auto;
